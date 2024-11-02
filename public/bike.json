@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "modale": "cgo009",
+        "image": "https://www.tenways.com/cdn/shop/files/cgo009_city_smart_ebike_97082cfe-6bf0-4a04-9fb9-cd39804eec72_750x.webp?v=1725853156",
+        "price": 2399
+
+    },
+    {
+        "id": 2,
+        "modale": "AGO X",
+        "image": "https://www.tenways.com/cdn/shop/files/agox_hybrid_ebike_ed01ecf1-a597-4de5-a616-d679cab90ed1_750x.webp?v=1725860800",
+        "pric": 2399
+
+    },
+    {
+        "id": 1,
+        "modale": "cgo600pro",
+        "image": "https://www.tenways.com/cdn/shop/files/cgo600pro_urban_commuter_ebike_9a492cc1-9f20-4caa-85cc-16e1dcde5b35_750x.webp?v=1725860554",
+        "pric": 1799
+
+    }
+]

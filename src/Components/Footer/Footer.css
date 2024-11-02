@@ -1,0 +1,22 @@
+ul{
+    padding: 1rem;
+}
+ul li{
+    padding: 0.7rem;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+ul li h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+ul li h2:hover{
+
+    text-decoration: none;
+}
+
+.foooterLogo:hover{
+color: coral;
+}
