@@ -6,11 +6,11 @@ const MainLayout = () => {
     return (
         <div className="overflow-hidden">
             {/* Navbar */}
-            <div className="sticky top-0">
+            <div className=" fixed top-0 z-10 w-full">
             <NavBar/>
             </div>
             {/* Dynamic Section */}
-            <div className="min-h-[calc(100vh-405.25px)] ">
+            <div className="min-h-[calc(100vh-405.25px)] mx-auto">
                 <Outlet/>
             </div>
             {/* Footer */}

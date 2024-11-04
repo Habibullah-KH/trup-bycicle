@@ -7,3 +7,7 @@
   --clr-200: #ade8f4;
   --clr-300: #04060b;
 }
+
+html{
+  overflow-y: scroll;
+}

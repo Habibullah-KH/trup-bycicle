@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home"
 import CycleDetails from "../Pages/cycleDetails/CycleDetails"
 import Accessories from "../Pages/Accessories/Accessories"
 import AboutUs from "../Pages/AboutUs/AboutUs"
+import BikeCards from "../Components/BikeCards/BikeCards"
 
 const routes = createBrowserRouter([
     {
@@ -12,11 +13,21 @@ const routes = createBrowserRouter([
       children:[
         {
             path:'/',
-            element: <Home/>
+            element: <Home/>,
+            loader: () => fetch('/bike.json'),
+            children: [
+              {
+              path:'/category/:category',
+              element: <BikeCards/>,
+              loader: () => fetch('/bike.json'),
+            }],
+
         },
         {
             path:'/CycleDetails',
-            element: <CycleDetails/>
+            element: <CycleDetails/>,
+            loader: () => fetch('/bike.json'),
+
         },
         {
             path:'/Accessories',
